@@ -49,17 +49,18 @@ Run the Streamlit App
 streamlit run app.py
 Ensure the vectorstore/ folder is already generated using the ingestion step. If not, use a document processing script to convert your PDFs into a FAISS index.
 
-#Future Work
-Add support for voice-to-text input and TTS output
+Future Work:
 
-Integrate real-time telecom APIs for dynamic offer retrieval
+1. Add support for voice-to-text input and TTS output
 
-Add memory for multi-turn contextual chat
+2. Integrate real-time telecom APIs for dynamic offer retrieval
 
-Implement user feedback loop for improving chatbot performance
+3. Add memory for multi-turn contextual chat
 
-Deploy as a containerized app using Docker for portability
+4. Implement user feedback loop for improving chatbot performance
 
-#License
+5. Deploy as a containerized app using Docker for portability
+
+License:
 
 This project is intended for educational and non-commercial use only.
